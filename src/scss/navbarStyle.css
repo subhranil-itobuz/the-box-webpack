@@ -1,0 +1,126 @@
+/* Navbar style for Mobile */
+nav {
+    background-color: #001AFF2B;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 5vw;
+}
+
+.group-logo-link {
+    text-decoration: none;
+}
+
+@media (min-width:768px) {
+    nav {
+        padding: 16px 30px;
+    }
+}
+
+@media (min-width:1024px) {
+    nav {
+        padding: 16px 70px;
+    }
+}
+
+@media (min-width:1440px) {
+    nav {
+        padding: 16px 112px;
+    }
+}
+
+.group-logo {
+    width: 50%;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+@media (min-width:1440px) {
+    .group-logo {
+        gap: 24px;
+    }
+}
+
+.group-logo-icon {
+    width: 20px;
+}
+
+@media (min-width:768px) {
+    .group-logo-icon {
+        width: 28px;
+    }
+}
+
+@media (min-width:1440px) {
+    .group-logo-icon {
+        width: 38px;
+    }
+}
+
+.group-logo-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2947A9;
+}
+
+
+@media (min-width:768px) {
+    .group-logo-title {
+        font-size: 30px;
+    }
+}
+
+#nav-items {
+    display: none;
+}
+
+#hamburger-button {
+    width: 50%;
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+}
+
+.hamburger-button-image {
+    width: 30px;
+}
+
+@media (min-width:1024px) {
+    #hamburger-button {
+        display: none;
+    }
+
+    #nav-items {
+        width: 50%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .nav-item-link {
+        cursor: pointer;
+        text-decoration: none;
+        color: #14171F;
+    }
+
+    .nav-item-link:hover {
+        color: #F9995D;
+    }
+    
+}
+
+@media (min-width:1440px) {
+    #nav-items {
+        width: 50%;
+        justify-content: space-between;
+        padding-left: 32px;
+        font-size: 18px;
+    }
+}

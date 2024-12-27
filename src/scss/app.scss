@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", 'Segoe UI';
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+@import url(./navbarStyle.css);
+@import url(./heroSectionStyle.css);
+@import url(./reputationStyle.css);
+@import url(./aboutSectionStyle.css);
+@import url(./serviceSectionStyle.css);
+@import url(./experienceSectionStyle.css);
+@import url(./consultationSectionStyle.css);
+@import url(./formSectionStyle.css);
+@import url(./projectsSectionStyle.css);
+@import url(./addressSectionStyle.css);
+@import url(./footerSectionStyle.css);

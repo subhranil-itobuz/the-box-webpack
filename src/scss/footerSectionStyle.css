@@ -1,0 +1,20 @@
+#footer-section {
+    background-color: #2947A9;
+    color: white;
+    font-size: 16px;
+    padding: 10px 50px;
+    text-align: center;
+
+    @media (min-width:768px) {
+        padding: 15px 20px;
+    }
+
+    @media (min-width:1024px) {
+        text-align: left;
+        padding: 20px 50px;
+    }
+
+    @media (min-width:1440px) {
+        padding: 26px 112px 25px;
+    }
+}

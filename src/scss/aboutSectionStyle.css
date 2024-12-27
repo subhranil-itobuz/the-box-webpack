@@ -1,0 +1,150 @@
+/* ABOUT SECTION CSS for MOBILE  */
+#about-section {
+    width: 100%;
+    margin: 40px 0 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:768px) {
+    #about-section {
+        margin-top: 100px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.about-section-img {
+    width: 278px;
+    margin-bottom: 14px;
+}
+
+@media (min-width:768px) {
+    .about-section-img {
+        width: 400px;
+    }
+}
+
+@media (min-width:1024px) {
+    .about-section-img {
+        width: 700px;
+    }
+}
+
+@media (min-width:1440px) {
+    .about-section-img {
+        width: 902px;
+    }
+}
+
+.about-container {
+    color: white;
+    background-color: #2947A9;
+    width: 278px;
+    padding: 32px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    text-align: left;
+}
+
+@media (min-width:768px) {
+    .about-container {
+        padding: 25px 20px;
+        z-index: 1;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width:1024px) {
+    .about-container {
+        width: 360px;
+        padding: 30px;
+        gap: 34px;
+        margin-left: -110px;
+        margin-top: 8px;
+    }
+}
+
+@media (min-width:1440px) {
+    .about-container {
+        width: 488px;
+        gap: 50px;
+        padding: 50px 94px 50px 40px;
+        margin-left: -166px;
+        margin-top: 15px;
+    }
+}
+
+
+.about-container-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (min-width:1024px) {
+    .about-container-heading {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1440px) {
+    .about-container-heading {
+        font-size: 36px;
+    }
+}
+
+.about-container-content {
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .about-container-content {
+        text-align: left;
+    }
+}
+
+@media (min-width:1024px) {
+    .about-container-content {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:1440px) {
+    .about-container-content {
+        font-size: 20px;
+    }
+}
+
+.about-container-button {
+    width: 219px;
+    border: none;
+    font-weight: 500;
+    background-color: white;
+    color: #2947A9;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.about-container-button:hover {
+    cursor: pointer;
+    background-color: #F9995D;
+    transition: background-color 0.1s ease-in-out 0.1s;
+}
+
+@media (min-width:1440px) {
+    .about-container-button {
+        font-size: 18px;
+        padding: 13px;
+    }
+}

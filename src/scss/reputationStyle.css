@@ -1,0 +1,143 @@
+/* REPUTATION SECTION css For MOBILE */
+#reputation-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+@media (min-width:768px) {
+    #reputation-section {
+        margin-top: 45px;
+        gap: 36px;
+    }
+}
+
+@media (min-width:1024px) {
+    #reputation-section {
+        margin-top: 55px;
+        gap: 40px;
+    }
+}
+
+@media (min-width:1440px) {
+    #reputation-section {
+        margin-top: 60px;
+        gap: 50px;
+    }
+}
+
+.reputation-heading {
+    color: #292E3D;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 2px 0 #00000040;
+}
+
+@media (min-width:768px) {
+    .reputation-heading {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1024px) {
+    .reputation-heading {
+        font-size: 32px;
+    }
+}
+
+@media (min-width:1440px) {
+    .reputation-heading {
+        font-size: 36px;
+    }
+}
+
+.reputation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+@media (min-width:1024px) {
+    .reputation-container {
+        gap: 50px;
+    }
+}
+
+@media (min-width:1440px) {
+    .reputation-container {
+        gap: 70px;
+    }
+}
+
+.reputation-container-card {
+    padding: 14px;
+    width: 272px;
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.reputation-container-card:hover {
+    cursor: pointer;
+    scale: 1.1;
+    border: 1px solid #3559C7;
+    transition: all 0.1s ease-in-out 0.1s;
+}
+
+@media (min-width:768px) {
+    .reputation-container-card {
+        width: 258px;
+        align-items: flex-start;
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width:1024px) {
+    .reputation-container-card {
+        width: 290px;
+    }
+}
+
+.container-card-logo {
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width:1024px) {
+    .container-card-logo {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.container-card-title {
+    font-size: 18px;
+    color: #3D445C;
+}
+
+@media (min-width:1024px) {
+    .container-card-title {
+        font-size: 20px;
+    }
+}
+
+.container-card-content {
+    font-size: 16px;
+    font-weight: 200;
+    color: #858EAD;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .container-card-content {
+        text-align: left;
+    }
+}

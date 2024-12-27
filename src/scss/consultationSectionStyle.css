@@ -1,0 +1,155 @@
+/* CONSULTATION SECTION CSS FOR MOBILE */
+#consultation-section {
+    background-image: url(../images/design/consultationSection/consultationBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    padding: 20px 0;
+}
+
+@media (min-width:768px) {
+    #consultation-section {
+        flex-direction: row;
+        gap: 0;
+        padding: 34px 20px;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1024px) {
+    #consultation-section {
+        gap: 100px;
+        justify-content: center;
+        padding: 50px 48px;
+    }
+}
+
+@media (min-width:1440px) {
+    #consultation-section {
+        gap: 180px;
+        padding: 100px 160px 100px 112px;
+    }
+}
+
+.consultation-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+@media (min-width:768px) {
+    .consultation-content {
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
+
+@media (min-width:1440px) {
+    .consultation-content {
+        gap: 30px;
+    }
+}
+
+
+.consultation-content-header {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 40px;
+}
+
+@media (min-width:768px) {
+    .consultation-content-header {
+        font-size: 24px;
+        text-align: left;
+        padding: 0;
+    }
+}
+
+@media (min-width:1024px) {
+    .consultation-content-header {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1440px) {
+    .consultation-content-header {
+        font-size: 36px;
+    }
+}
+
+.consultation-content-contact {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+@media (min-width:768px) {
+    .consultation-content-contact {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1024px) {
+    .consultation-content-contact {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:1440px) {
+    .consultation-content-contact {
+        font-size: 24px;
+    }
+}
+
+.consultation-content-contact-number {
+    color: white;
+}
+
+.consultation-content-contact-number:hover {
+    color: #F9995D;
+    transition: all 0.1s ease-in-out 0.1s;
+}
+
+.consultation-button {
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 4px 10px;
+}
+
+.consultation-button:hover {
+    cursor: pointer;
+    background-color: #F9995D;
+    transition: all 0.1s ease-in-out 0.1s;
+}
+
+@media (min-width:768px) {
+    .consultation-button {
+        width: 194px;
+        padding: 10px;
+    }
+}
+
+@media (min-width:1024px) {
+    .consultation-button {
+        width: 200px;
+    }
+}
+
+@media (min-width:1440px) {
+    .consultation-button {
+        width: 233px;
+        font-size: 18px;
+        padding: 16px 19px;
+    }
+}

@@ -1,0 +1,513 @@
+/* EXPERIENCE SECTION CSS FOR MOBILE */
+#experience-section {
+    margin-top: 60px;
+    width: 100%;
+}
+
+@media (min-width:768px) {
+    #experience-section {
+        display: flex;
+    }
+}
+
+@media (min-width:1440px) {
+    #experience-section {
+        margin-top: 122px;
+    }
+}
+
+/* EXPERIENCE CONTAINER CSS */
+.experience-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+}
+
+@media (min-width:768px) {
+    .experience-container {
+        width: 60%;
+        gap: 0;
+    }
+}
+
+.experience-container-card {
+    box-shadow: 0px 4px 6px -2px #111827;
+    border-radius: 4px;
+}
+
+.experience-container-card:hover {
+    cursor: pointer;
+    scale: 1.05;
+    transition: all 0.15s ease-in-out 0.15s;
+}
+
+.clients-card {
+    width: 166px;
+    position: relative;
+    padding: 15px 18px;
+    background-color: #fff;
+    z-index: 10;
+}
+
+@media (min-width:768px) {
+    .clients-card {
+        right: -43px;
+    }
+}
+
+@media (min-width:1024px) {
+    .clients-card {
+        width: 240px;
+        right: -145px;
+    }
+}
+
+@media (min-width:1440px) {
+    .clients-card {
+        width: 280px;
+        right: -209px;
+        padding: 30px 24px;
+    }
+}
+
+.clients-card-icon {
+    width: 50px;
+    position: absolute;
+    top: -22px;
+    right: -17px;
+}
+
+@media (min-width:1024px) {
+    .clients-card-icon {
+        width: 80px;
+    }
+}
+
+@media (min-width:1440px) {
+    .clients-card-icon {
+        width: 97px;
+        top: -36px;
+        right: -28px;
+    }
+}
+
+.clients-card-header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #292E3D;
+}
+
+@media (min-width:1024px) {
+    .clients-card-header {
+        font-size: 56px;
+    }
+}
+
+@media (min-width:1440px) {
+    .clients-card-header {
+        font-size: 72px;
+    }
+}
+
+.clients-card-content {
+    display: flex;
+    gap: 6px;
+    padding: 8px 0px 0 10px;
+}
+
+.clients-card-content-name {
+    font-size: 16px;
+    color: #667299;
+}
+
+@media (min-width:1024px) {
+    .clients-card-content-name {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1440px) {
+    .clients-card-content-name {
+        font-size: 24px;
+    }
+}
+
+.projects-card {
+    width: 209px;
+    padding: 20px 18px;
+    position: relative;
+}
+
+@media (min-width:768px) {
+    .projects-card {
+        left: -24px;
+        top: -24px;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .projects-card {
+        width: 300px;
+        left: -61px;
+        top: -34px;
+    }
+}
+
+@media (min-width:1440px) {
+    .projects-card {
+        width: 361px;
+        left: -61px;
+        top: -34px;
+        padding: 27px 23px;
+    }
+}
+
+.projects-card-icon {
+    width: 40px;
+    position: absolute;
+    top: -9px;
+    left: -14px;
+}
+
+@media (min-width:1440px) {
+    .projects-card-icon {
+        width: 79px;
+        top: -31px;
+        left: -41px;
+    }
+}
+
+.projects-card-header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #292E3D;
+}
+
+@media (min-width:1024px) {
+    .projects-card-header {
+        font-size: 56px;
+    }
+}
+
+@media (min-width:1440px) {
+    .projects-card-header {
+        font-size: 72px;
+    }
+}
+
+.projects-card-content {
+    display: flex;
+    gap: 8px;
+    padding: 8px 0 0 5px;
+}
+
+.projects-card-content-name {
+    font-size: 16px;
+    color: #667299;
+}
+
+@media (min-width:1024px) {
+    .projects-card-content-name {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1440px) {
+    .projects-card-content-name {
+        font-size: 24px;
+    }
+}
+
+.awards-card {
+    width: 160px;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #fff;
+    z-index: 10;
+
+}
+
+@media (min-width:768px) {
+    .awards-card {
+        top: -37px;
+        right: -44px;
+    }
+}
+
+@media (min-width:1024px) {
+    .awards-card {
+        width: 240px;
+        top: -53px;
+        right: -107px;
+    }
+}
+
+@media (min-width:1440px) {
+    .awards-card {
+        width: 276px;
+        top: -56px;
+        right: -139px;
+        padding: 20px 21px 30px;
+    }
+}
+
+.awards-card-icon {
+    width: 47px;
+    position: absolute;
+    top: -10px;
+    right: -11px;
+}
+
+
+@media (min-width:1440px) {
+    .awards-card-icon {
+        width: 93px;
+        top: -38px;
+        right: -21px;
+    }
+}
+
+
+.awards-card-header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #292E3D;
+}
+
+@media (min-width:1024px) {
+    .awards-card-header {
+        font-size: 56px;
+    }
+}
+
+@media (min-width:1440px) {
+    .awards-card-header {
+        font-size: 72px;
+    }
+}
+
+.awards-card-content {
+    display: flex;
+    gap: 6px;
+    padding: 6px 0 5px 7px;
+}
+
+.awards-card-content-name {
+    font-size: 16px;
+    color: #667299;
+}
+
+@media (min-width:1024px) {
+    .awards-card-content-name {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1440px) {
+    .awards-card-content-name {
+        font-size: 24px;
+    }
+}
+
+.business-card {
+    width: 200px;
+    position: relative;
+    padding: 14px 21px;
+}
+
+@media (min-width:768px) {
+    .business-card {
+        top: -64px;
+        left: -28px;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .business-card {
+        width: 280px;
+        top: -79px;
+        left: -50px;
+    }
+}
+
+@media (min-width:1440px) {
+    .business-card {
+        width: 333px;
+        top: -113px;
+        left: -36px;
+        padding: 14px 30px 30px;
+    }
+}
+
+.business-card-icon {
+    width: 42px;
+    position: absolute;
+    bottom: -19px;
+    right: -20px;
+}
+
+@media (min-width:1440px) {
+    .business-card-icon {
+        width: 84px;
+        bottom: -40px;
+        right: -40px;
+    }
+}
+
+.business-card-header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #292E3D;
+}
+
+@media (min-width:1024px) {
+    .business-card-header {
+        font-size: 56px;
+    }
+}
+
+@media (min-width:1440px) {
+    .business-card-header {
+        font-size: 72px;
+    }
+}
+
+.business-card-content {
+    display: flex;
+    gap: 6px;
+    padding: 5px 0 5px 10px;
+}
+
+.business-card-content-name {
+    font-size: 16px;
+    color: #667299;
+}
+
+@media (min-width:1024px) {
+    .business-card-content-name {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1440px) {
+    .business-card-content-name {
+        font-size: 24px;
+    }
+}
+
+.experience-card-orange-rectangle {
+    width: 5px;
+}
+
+@media (min-width:1024px) {
+    .experience-card-orange-rectangle {
+        width: 7px;
+    }
+}
+
+/* EXPERIENCE CONTENT CSS  */
+.experience-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 35px;
+}
+
+@media (min-width:768px) {
+    .experience-content {
+        padding: 0 35px 100px;
+        width: 40%;
+        align-items: flex-start;
+        gap: 40px;
+    }
+}
+
+.experience-content-header {
+    width: 180px;
+    color: #2947A9;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .experience-content-header {
+        text-align: left;
+    }
+}
+
+@media (min-width:1024px) {
+    .experience-content-header {
+        width: 260px;
+        font-size: 45px;
+    }
+}
+
+@media (min-width:1440px) {
+    .experience-content-header {
+        font-size: 60px;
+    }
+}
+
+.experience-content-paragraph {
+    width: 250px;
+    font-size: 16px;
+    color: #525B7A;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .experience-content-paragraph {
+        text-align: left;
+    }
+}
+
+@media (min-width:1024px) {
+    .experience-content-paragraph {
+        font-size: 20px;
+        width: 300px;
+        padding-bottom: 17px;
+    }
+}
+
+@media (min-width:1024px) {
+    .experience-content-paragraph {
+        font-size: 20px;
+    }
+}
+
+.experience-content-button {
+    background: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: #2947A9;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 20px;
+    color: #FFFFFF;
+}
+
+.experience-content-button:hover {
+    cursor: pointer;
+    background-color: #F9995D;
+    transition: all  0.15s ease-in-out 0.15s ;
+}
+
+@media (min-width:1024px) {
+    .experience-content-button {
+        width: 176px;
+        font-size: 18px;
+        padding: 16px 0;
+    }
+}
